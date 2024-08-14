@@ -1,0 +1,7 @@
+cadena = input("Introduce una cadena: ")
+prefijo = input("Introduce el prefijo: ")
+sufijo = input("Introduce el sufijo: ")
+tiene_prefijo = cadena.startswith(prefijo)
+tiene_sufijo = cadena.endswith(sufijo)
+print(f"¿La cadena comienza con el prefijo '{prefijo}'? {tiene_prefijo}")
+print(f"¿La cadena termina con el sufijo '{sufijo}'? {tiene_sufijo}")
